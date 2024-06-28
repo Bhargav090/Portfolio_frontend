@@ -1,0 +1,20 @@
+.expmain{
+    margin: 4%;
+}
+.exp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.exp ul{
+    line-height: 2rem;
+}
+.date{
+    width: 24%;
+}
+.ct1{
+    width: 76%;
+}
+.exph{
+    color: rgb(0, 157, 255);
+}

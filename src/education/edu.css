@@ -1,0 +1,18 @@
+.education{
+    margin: 4%;
+    margin-top: 7%;
+}
+.edu{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(0, 157, 255);
+}
+.edu-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.text{
+    margin: 2%;
+}
