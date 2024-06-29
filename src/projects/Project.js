@@ -8,7 +8,7 @@ export default function Project({ showNavbar }) {
   const [projects] = useState([
     {
       id: 1,
-      P_Image: "https://w0.peakpx.com/wallpaper/689/676/HD-wallpaper-view-nature-beautiful-flowers-love-mountain-nature-view.jpg",
+      P_Image: "https://img.freepik.com/free-photo/lake-mountains_1204-502.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1719619200&semt=ais_user",
       P_Desc: "It's is a Flutter application that brings you beautiful photographs capturing the essence of nature. This app allows you to view and download these stunning images.",
       P_Name: "NatureView2 Mobile App",
       P_Link: "https://github.com/Bhargav090/NatureView2_APP"
