@@ -1,27 +1,47 @@
-import React, { useState, useEffect } from "react";
-import '../home/home.css'
+import React, { useState } from "react";
+import '../home/home.css';
 import { NavLink } from "react-router-dom";
 import Card from "./Card";
-import url from '../url.js'
-import './card.css'
-import axios from 'axios'
+import './card.css';
 
 export default function Project({ showNavbar }) {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get(url + '/projects')
-        setProjects(response.data)
-      } catch (err) {
-        console.log(err)
-      }
-    }
-
-    fetchData();
-    console.log(fetchData())
-  }, []);
+  const [projects] = useState([
+    {
+      id: 1,
+      P_Image: "https://w0.peakpx.com/wallpaper/689/676/HD-wallpaper-view-nature-beautiful-flowers-love-mountain-nature-view.jpg",
+      P_Desc: "It's is a Flutter application that brings you beautiful photographs capturing the essence of nature. This app allows you to view and download these stunning images.",
+      P_Name: "NatureView2 Mobile App",
+      P_Link: "https://github.com/Bhargav090/NatureView2_APP"
+    },
+    {
+      id: 2,
+      P_Image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQluOWYQmwwtT2tGDqxlHvkCzqO03jOZTVq9bu57pnqbRukUGSzfSQF7tpd19rIXnWsRi08hsLyrC05bWMdHvrb--r2-BOVMLuIyfWeYkbsfZZ4SKyOOvSVKRWX7yF7QtOfe0lA5UI&usqp=CAc",
+      P_Desc: "A Social platform website developed for university students to post and access their college news and updates.",
+      P_Name: "Your Way (Social Networking Platform)",
+      P_Link: "https://your_way.com"
+    },
+    {
+      id: 3,
+      P_Image: "https://mpolaroid.online/images/logoed.jpg",
+      P_Desc: "Developed a user-friendly e-commerce website for a client, enabling seamless purchasing of Polaroid pictures.",
+      P_Name: "MPolaroid E-Commerce Website",
+      P_Link: "https://mpolaroid.online/"
+    },
+    {
+      id: 4,
+      P_Image: "https://img.freepik.com/premium-vector/movie-review-logo-design_979099-151.jpg",
+      P_Desc: "A Flutter application that displays reviews of newly released movies, providing users with up-to-date insights and ratings in a seamless and engaging interface.",
+      P_Name: "Movie Review Mobile App",
+      P_Link: "https://github.com/Bhargav090/Movie_review_app"
+    },
+    {
+      id: 5,
+      P_Image: "https://vajiram-prod.s3.ap-south-1.amazonaws.com/E_Commerce_Policy_Draft_13746de06b.jpeg",
+      P_Desc: "An E-Commerce Website where users can log in or sign up and purchase products by adding them to their cart.",
+      P_Name: "Full Stack MERN E-Commerce Website",
+      P_Link: "https://github.com/Bhargav090/Movie_review_app"
+    },
+  ]);
 
   return (
     <div className="project">
