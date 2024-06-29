@@ -7,7 +7,7 @@ function Exp() {
       <div className="exp">
         <div className="ct1">
           <h3>Flutter Developer Intern</h3><br></br>
-          <h4>DST HUB LLP </h4><br></br>
+          <h4 className="cmpny">DST HUB LLP </h4><br></br>
 
           <ul>
             <li>
@@ -32,7 +32,7 @@ function Exp() {
       <div className="exp">
         <div className="ct1">
           <h3>Flutter Developer Intern </h3><br></br>
-          <h4>BragTech</h4><br></br>
+          <h4 className="cmpny">BragTech</h4><br></br>
 
           <ul>
             <li>

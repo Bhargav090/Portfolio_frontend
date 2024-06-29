@@ -22,25 +22,26 @@ export default function Project({ showNavbar }) {
     },
     {
       id: 3,
+      P_Image: "https://vajiram-prod.s3.ap-south-1.amazonaws.com/E_Commerce_Policy_Draft_13746de06b.jpeg",
+      P_Desc: "An E-Commerce Website where users can log in or sign up and purchase products by adding them to their cart.",
+      P_Name: "Full Stack MERN E-Commerce Website",
+      P_Link: "https://github.com/Bhargav090/Movie_review_app"
+    },
+    {
+      id: 4,
       P_Image: "https://mpolaroid.online/images/logoed.jpg",
       P_Desc: "Developed a user-friendly e-commerce website for a client, enabling seamless purchasing of Polaroid pictures.",
       P_Name: "MPolaroid E-Commerce Website",
       P_Link: "https://mpolaroid.online/"
     },
     {
-      id: 4,
+      id: 5,
       P_Image: "https://img.freepik.com/premium-vector/movie-review-logo-design_979099-151.jpg",
       P_Desc: "A Flutter application that displays reviews of newly released movies, providing users with up-to-date insights and ratings in a seamless and engaging interface.",
       P_Name: "Movie Review Mobile App",
       P_Link: "https://github.com/Bhargav090/Movie_review_app"
     },
-    {
-      id: 5,
-      P_Image: "https://vajiram-prod.s3.ap-south-1.amazonaws.com/E_Commerce_Policy_Draft_13746de06b.jpeg",
-      P_Desc: "An E-Commerce Website where users can log in or sign up and purchase products by adding them to their cart.",
-      P_Name: "Full Stack MERN E-Commerce Website",
-      P_Link: "https://github.com/Bhargav090/Movie_review_app"
-    },
+    
   ]);
 
   return (
