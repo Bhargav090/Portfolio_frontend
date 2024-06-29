@@ -25,7 +25,7 @@ export default function Project({ showNavbar }) {
       P_Image: "https://vajiram-prod.s3.ap-south-1.amazonaws.com/E_Commerce_Policy_Draft_13746de06b.jpeg",
       P_Desc: "An E-Commerce Website where users can log in or sign up and purchase products by adding them to their cart.",
       P_Name: "Full Stack MERN E-Commerce Website",
-      P_Link: "https://github.com/Bhargav090/Movie_review_app"
+      P_Link: "https://github.com/Bhargav090/E-Commerce-Frontend"
     },
     {
       id: 4,
