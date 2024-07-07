@@ -1,51 +1,119 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
+    margin-top: 0%;
+    align-items: center;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     padding: 10%;
     color: rgb(0, 157, 255);
     font-size: large;
     font-weight: 600;
 }
-.links{
+
+.links {
     margin-right: 2%;
     width: 40%;
+    display: flex;
+    justify-content: space-between;
 }
-.mainhead{
+
+.links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: transparent;
+    width: 100px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mainhead {
     margin-left: 4%;
     margin-top: 8%;
     margin-right: 2%;
     line-height: 3rem;
     width: 60%;
 }
-.nameh{
+
+.nameh {
     margin-left: 4%;
 }
-.maincontent{
+
+.maincontent {
     display: flex;
     margin-top: 3%;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
 }
-.spanh{
+
+.spanh {
     font-family: "Rubik Bubbles", system-ui;
     font-weight: 400;
     font-style: normal;
     color: rgb(0, 157, 255);
 }
-.myimg{
+
+.myimg {
     width: 20%;
     margin-right: 6%;
     margin-top: 6%;
     height: 50vh;
     border-radius: 220px;
 }
+
 .links a:hover {
     text-decoration: underline;
     text-underline-offset: 0.5em;
     text-decoration-skip-ink: none;
     color: red;
     transition: color 0.5s ease-in-out;
+}
+
+@media (max-width: 650px) {
+    .links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar a {
+        padding: 5%;
+    }
+
+    .maincontent {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .mainhead {
+        width: 100%; 
+        text-align: center; 
+        margin-top: 4%;
+        font-size: 5vw;
+    }
+
+    .myimg {
+        width: 60%;
+        margin-right: 0; 
+        margin-top: 4%;
+        height: auto; 
+    }
+    .nameh{
+        font-size: 4vw;
+    }
 }

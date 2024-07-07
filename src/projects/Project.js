@@ -3,6 +3,7 @@ import '../home/home.css';
 import { NavLink } from "react-router-dom";
 import Card from "./Card";
 import './card.css';
+import logo from './logomain.png'
 
 export default function Project({ showNavbar }) {
   const [projects] = useState([
@@ -15,10 +16,10 @@ export default function Project({ showNavbar }) {
     },
     {
       id: 2,
-      P_Image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQluOWYQmwwtT2tGDqxlHvkCzqO03jOZTVq9bu57pnqbRukUGSzfSQF7tpd19rIXnWsRi08hsLyrC05bWMdHvrb--r2-BOVMLuIyfWeYkbsfZZ4SKyOOvSVKRWX7yF7QtOfe0lA5UI&usqp=CAc",
+      P_Image: logo,
       P_Desc: "A Social platform website developed for university students to post and access their college news and updates.",
       P_Name: "Your Way (Social Networking Platform)",
-      P_Link: "https://your_way.com"
+      P_Link: "https://your1way.netlify.app/"
     },
     {
       id: 3,
