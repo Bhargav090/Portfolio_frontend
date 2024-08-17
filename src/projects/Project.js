@@ -23,20 +23,27 @@ export default function Project({ showNavbar }) {
     },
     {
       id: 3,
+      P_Image: "https://cdn.prod.website-files.com/5e6bef9160e290b99b7644b5/637db337f8ff1b1d4b819d94_Movie%20and%20Book%20Reviews_%20How%20to%20Write%20a%20Great%20Critique.png",
+      P_Desc: "Website where users can login and can serach for the movies they want and can add to their personal watchlist.",
+      P_Name: "CineCurate Movie Watchlist Website",
+      P_Link: "https://cinecurate.netlify.app/"
+    },
+    {
+      id: 4,
       P_Image: "https://vajiram-prod.s3.ap-south-1.amazonaws.com/E_Commerce_Policy_Draft_13746de06b.jpeg",
       P_Desc: "An E-Commerce Website where users can log in or sign up and purchase products by adding them to their cart.",
       P_Name: "Full Stack MERN E-Commerce Website",
       P_Link: "https://github.com/Bhargav090/E-Commerce-Frontend"
     },
     {
-      id: 4,
+      id: 5,
       P_Image: "https://mpolaroid.online/images/logoed.jpg",
       P_Desc: "Developed a user-friendly e-commerce website for a client, enabling seamless purchasing of Polaroid pictures.",
       P_Name: "MPolaroid E-Commerce Website",
       P_Link: "https://mpolaroid.online/"
     },
     {
-      id: 5,
+      id: 6,
       P_Image: "https://img.freepik.com/premium-vector/movie-review-logo-design_979099-151.jpg",
       P_Desc: "A Flutter application that displays reviews of newly released movies, providing users with up-to-date insights and ratings in a seamless and engaging interface.",
       P_Name: "Movie Review Mobile App",
