@@ -49,6 +49,20 @@ export default function Project({ showNavbar }) {
       P_Name: "Movie Review Mobile App",
       P_Link: "https://github.com/Bhargav090/Movie_review_app"
     },
+    {
+      id: 7,
+      P_Image: "https://openweathermap.org/themes/openweathermap/assets/img/weather_db.jpg",
+      P_Desc: "Developed a real-time dashboard enabling users to add, delete, and search for categories and widgets seamlessly.",
+      P_Name: "Real-Time Dashboard",
+      P_Link: "https://github.com/Bhargav090/Realtime-Dashboard"
+    },
+    {
+      id: 8,
+      P_Image: "https://www.sphereinc.com/wp-content/uploads/2022/04/flutter-vs-react-native.webp",
+      P_Desc: "An integrated React and Flutter application featuring an admin panel on the React website, where users can add items (currently focused on adding boats), and these additions are seamlessly reflected in the Flutter app.",
+      P_Name: "React + Flutter APP (Website link : https://hygwell-react-flutter-website.vercel.app/ )",
+      P_Link: "https://github.com/Bhargav090/Hygwell-React-Flutter-App"
+    },
     
   ]);
 
